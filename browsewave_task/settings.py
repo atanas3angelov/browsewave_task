@@ -66,7 +66,8 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
 #    'browsewave_task.pipelines.BrowsewaveTaskPipeline': 300,
-    'browsewave_task.pipelines.JsonWithEncodingPipeline': 400,
+#     'browsewave_task.pipelines.JsonWithEncodingPipeline': 400,
+    'browsewave_task.pipelines.JsonWithEncoding2Pipeline': 500,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
